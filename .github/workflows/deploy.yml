@@ -26,7 +26,7 @@ jobs:
 
     # Step 4: Automate the Docker Build and Push task
     - name: Build and push Docker image
-      uses: docker/build-push-action@v6
+      uses: docker/build-push-action@v7
       with:
         context: .
         file: ./Dockerfile
